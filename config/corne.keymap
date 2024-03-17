@@ -10,8 +10,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-&mt { tapping-term-ms = <150>; };
-
 / {
     macros {
         to_game: to_game_layer {
@@ -58,10 +56,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB        &kp Q        &kp W        &kp E         &kp R         &kp T                   &kp Y                &kp U         &kp I         &kp O        &kp P           &kp BSPC
-&kp LCTRL      &hmt LGUI A  &hmt LALT S  &hmt LCTRL D  &hmt LSHFT F  &kp G                   &kp H                &hmt RSHFT J  &hmt RCTRL K  &hmt RALT L  &hmt RGUI SEMI  &kp SQT
-&mt LSHFT ESC  &kp Z        &kp X        &kp C         &kp V         &kp B                   &kp N                &kp M         &kp COMMA     &kp DOT      &kp FSLH        &to_game
-                                         &kp LGUI      &mo 1         &mt LEFT_SHIFT SPACE    &mt RIGHT_SHIFT RET  &mo 2         &kp RALT
+&kp TAB         &kp Q        &kp W        &kp E         &kp R         &kp T                    &kp Y                 &kp U         &kp I         &kp O        &kp P           &kp BSPC
+&kp LCTRL       &hmt LGUI A  &hmt LALT S  &hmt LCTRL D  &hmt LSHFT F  &kp G                    &kp H                 &hmt RSHFT J  &hmt RCTRL K  &hmt RALT L  &hmt RGUI SEMI  &kp SQT
+&hmt LSHFT ESC  &kp Z        &kp X        &kp C         &kp V         &kp B                    &kp N                 &kp M         &kp COMMA     &kp DOT      &kp FSLH        &to_game
+                                          &kp LGUI      &mo 1         &hmt LEFT_SHIFT SPACE    &hmt RIGHT_SHIFT RET  &mo 2         &kp RALT
             >;
         };
 
@@ -85,19 +83,19 @@
 
         adjust_layer {
             bindings = <
-&trans  &trans        &trans        &trans        &trans        &trans          &trans      &trans  &trans  &trans  &trans   &trans
-&trans  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6      &kp F7  &kp F8  &kp F9  &kp F10  &trans
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_CLR  &trans  &trans  &trans  &trans   &trans
-                                    &trans        &trans        &trans          &trans      &trans  &trans
+&trans  &trans        &trans        &trans        &trans        &trans          &trans         &trans         &trans         &trans         &trans         &trans
+&trans  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6         &kp F7         &kp F8         &kp F9         &kp F10        &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4  &bt BT_CLR
+                                    &trans        &trans        &trans          &trans         &trans         &trans
             >;
         };
 
         colemak_layer {
             bindings = <
-&kp TAB        &kp Q        &kp W        &kp F         &kp P         &kp B                   &kp J                  &kp L         &kp U         &kp Y        &kp SEMI     &kp BSPC
-&kp LCTRL      &hmt LGUI A  &hmt LALT R  &hmt LCTRL S  &hmt LSHFT T  &kp G                   &kp M                  &hmt RSHFT N  &hmt RCTRL E  &hmt RALT I  &hmt RGUI O  &kp APOS
-&mt LSHFT ESC  &kp Z        &kp X        &kp C         &kp D         &kp V                   &kp K                  &kp H         &kp COMMA     &kp DOT      &kp FSLH     &to_game
-                                         &trans        &mo 1         &mt LEFT_SHIFT SPACE    &mt RIGHT_SHIFT ENTER  &mo 2         &trans
+&kp TAB         &kp Q        &kp W        &kp F         &kp P         &kp B                    &kp J                   &kp L         &kp U         &kp Y        &kp SEMI     &kp BSPC
+&kp LCTRL       &hmt LGUI A  &hmt LALT R  &hmt LCTRL S  &hmt LSHFT T  &kp G                    &kp M                   &hmt RSHFT N  &hmt RCTRL E  &hmt RALT I  &hmt RGUI O  &kp APOS
+&hmt LSHFT ESC  &kp Z        &kp X        &kp C         &kp D         &kp V                    &kp K                   &kp H         &kp COMMA     &kp DOT      &kp FSLH     &to_game
+                                          &trans        &mo 1         &hmt LEFT_SHIFT SPACE    &hmt RIGHT_SHIFT ENTER  &mo 2         &trans
             >;
         };
 
@@ -112,10 +110,10 @@
 
         GAME_NUMBERS {
             bindings = <
-&trans   &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &none  &none  &none  &none  &none  &none
-&trans   &kp N6  &kp N7  &kp N8  &kp N9  &kp N0    &none  &none  &none  &none  &none  &to_colemak
-&kp ESC  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &none  &none  &none  &none  &none  &none
-                         &trans  &none   &trans    &none  &none  &none
+&trans   &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &none   &none   &none   &none   &none    &none
+&trans   &kp N6  &kp N7  &kp N8  &kp N9  &kp N0    &none   &none   &none   &none   &none    &to_colemak
+&kp ESC  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &none
+                         &trans  &none   &trans    &none   &none   &none
             >;
         };
     };
