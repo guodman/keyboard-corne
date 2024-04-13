@@ -170,6 +170,467 @@
             key-positions = <13 4>;
             layers = <7>;
         };
+
+        left_forwardshash {
+            bindings = <&kp SLASH>;
+            key-positions = <2 15>;
+            layers = <7>;
+        };
+
+        left_semicolon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <1 14>;
+            layers = <7>;
+        };
+
+        left_comma {
+            bindings = <&kp COMMA>;
+            key-positions = <3 16>;
+            layers = <7>;
+        };
+
+        left_minus {
+            bindings = <&kp MINUS>;
+            key-positions = <3 14>;
+            layers = <7>;
+        };
+
+        left_question {
+            bindings = <&kp QUESTION>;
+            key-positions = <15 4>;
+            layers = <7>;
+        };
+
+        left_quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <13 2>;
+            layers = <7>;
+        };
+
+        left_upper_r {
+            bindings = <&kp LS(R)>;
+            key-positions = <37 1>;
+        };
+
+        left_upper_s {
+            bindings = <&kp LS(S)>;
+            key-positions = <37 2>;
+            layers = <7>;
+        };
+
+        left_upper_n {
+            bindings = <&kp LS(N)>;
+            key-positions = <37 3>;
+            layers = <7>;
+        };
+
+        left_upper_i {
+            bindings = <&kp LS(I)>;
+            key-positions = <37 4>;
+            layers = <7>;
+        };
+
+        left_upper_a {
+            bindings = <&kp LS(A)>;
+            key-positions = <37 13>;
+            layers = <7>;
+        };
+
+        left_upper_o {
+            bindings = <&kp LS(O)>;
+            key-positions = <37 14>;
+            layers = <7>;
+        };
+
+        left_upper_t {
+            bindings = <&kp LS(T)>;
+            key-positions = <37 15>;
+            layers = <7>;
+        };
+
+        left_upper_e {
+            bindings = <&kp LS(E)>;
+            key-positions = <37 16>;
+            layers = <7>;
+        };
+
+        left_upper_b {
+            bindings = <&kp LS(B)>;
+            key-positions = <37 1 2>;
+            layers = <7>;
+        };
+
+        left_upper_l {
+            bindings = <&kp LS(L)>;
+            key-positions = <37 13 14>;
+            layers = <7>;
+        };
+
+        left_upper_p {
+            bindings = <&kp LS(P)>;
+            key-positions = <37 2 3>;
+            layers = <7>;
+        };
+
+        left_upper_g {
+            bindings = <&kp LS(G)>;
+            key-positions = <37 1 4>;
+            layers = <7>;
+        };
+
+        left_upper_z {
+            bindings = <&kp LS(Z)>;
+            key-positions = <37 1 3>;
+            layers = <7>;
+        };
+
+        left_upper_q {
+            bindings = <&kp LS(Q)>;
+            key-positions = <37 13 15>;
+            layers = <7>;
+        };
+
+        left_upper_x {
+            bindings = <&kp LS(X)>;
+            key-positions = <37 1 15>;
+            layers = <7>;
+        };
+
+        left_upper_v {
+            bindings = <&kp LS(V)>;
+            key-positions = <37 2 16>;
+            layers = <7>;
+        };
+
+        left_upper_m {
+            bindings = <&kp LS(M)>;
+            key-positions = <37 1 16>;
+            layers = <7>;
+        };
+
+        left_upper_y {
+            bindings = <&kp LS(Y)>;
+            key-positions = <37 4 3>;
+            layers = <7>;
+        };
+
+        left_upper_h {
+            bindings = <&kp LS(H)>;
+            key-positions = <37 16 15>;
+            layers = <7>;
+        };
+
+        left_upper_u {
+            bindings = <&kp LS(U)>;
+            key-positions = <37 15 14>;
+            layers = <7>;
+        };
+
+        left_upper_d {
+            bindings = <&kp LS(D)>;
+            key-positions = <37 13 16>;
+            layers = <7>;
+        };
+
+        left_upper_f {
+            bindings = <&kp LS(F)>;
+            key-positions = <37 4 2>;
+            layers = <7>;
+        };
+
+        left_upper_c {
+            bindings = <&kp LS(C)>;
+            key-positions = <37 16 14>;
+            layers = <7>;
+        };
+
+        left_upper_k {
+            bindings = <&kp LS(K)>;
+            key-positions = <37 14 4>;
+            layers = <7>;
+        };
+
+        left_upper_j {
+            bindings = <&kp LS(J)>;
+            key-positions = <37 13 3>;
+            layers = <7>;
+        };
+
+        left_upper_w {
+            bindings = <&kp LS(W)>;
+            key-positions = <37 13 4>;
+            layers = <7>;
+        };
+
+        left_backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <2 15 37>;
+            layers = <7>;
+        };
+
+        left_colon {
+            bindings = <&kp COLON>;
+            key-positions = <37 1 14>;
+            layers = <7>;
+        };
+
+        left_period {
+            bindings = <&kp PERIOD>;
+            key-positions = <37 16 3>;
+            layers = <7>;
+        };
+
+        left_underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <37 14 3>;
+            layers = <7>;
+        };
+
+        left_bang {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <37 15 4>;
+            layers = <7>;
+        };
+
+        left_double_quote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <37 13 2>;
+            layers = <7>;
+        };
+
+        left_9 {
+            bindings = <&kp NUMBER_9>;
+            key-positions = <38 1 2>;
+            layers = <7>;
+        };
+
+        left_4 {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <13 14 38>;
+            layers = <7>;
+        };
+
+        left_7 {
+            bindings = <&kp NUMBER_7>;
+            key-positions = <2 3 38>;
+            layers = <7>;
+        };
+
+        left_hash {
+            bindings = <&kp HASH>;
+            key-positions = <1 4 38>;
+            layers = <7>;
+        };
+
+        left_8 {
+            bindings = <&kp NUMBER_8>;
+            key-positions = <1 3 38>;
+            layers = <7>;
+        };
+
+        left_3 {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <15 13 38>;
+            layers = <7>;
+        };
+
+        left_carot {
+            bindings = <&kp CARET>;
+            key-positions = <1 15 38>;
+            layers = <7>;
+        };
+
+        left_asterisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <16 2 38>;
+            layers = <7>;
+        };
+
+        left_dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <1 16 38>;
+            layers = <7>;
+        };
+
+        left_pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <2 15 38>;
+            layers = <7>;
+        };
+
+        left_tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <16 3 38>;
+            layers = <7>;
+        };
+
+        left_5 {
+            bindings = <&kp NUMBER_5>;
+            key-positions = <3 4 38>;
+            layers = <7>;
+        };
+
+        left_0 {
+            bindings = <&kp NUMBER_0>;
+            key-positions = <16 15 38>;
+            layers = <7>;
+        };
+
+        left_2 {
+            bindings = <&kp NUMBER_2>;
+            key-positions = <14 15 38>;
+            layers = <7>;
+        };
+
+        left_at {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <13 16 38>;
+            layers = <7>;
+        };
+
+        left_6 {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <2 4 38>;
+            layers = <7>;
+        };
+
+        left_1 {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <16 14 38>;
+            layers = <7>;
+        };
+
+        left_plus {
+            bindings = <&kp PLUS>;
+            key-positions = <14 4 38>;
+            layers = <7>;
+        };
+
+        left_equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <13 3 38>;
+            layers = <7>;
+        };
+
+        left_and {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <13 4 38>;
+            layers = <7>;
+        };
+
+        left_percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <14 3 38>;
+            layers = <7>;
+        };
+
+        left_backtick {
+            bindings = <&kp GRAVE>;
+            key-positions = <13 2 38>;
+            layers = <7>;
+        };
+
+        left_lessthan {
+            bindings = <&kp LS(LESS_THAN)>;
+            key-positions = <13 38>;
+            layers = <7>;
+        };
+
+        left_greaterthan {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <1 38>;
+            layers = <7>;
+        };
+
+        left_openbrace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <14 38>;
+            layers = <7>;
+        };
+
+        left_closebrace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <2 38>;
+            layers = <7>;
+        };
+
+        left_openbracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <15 38>;
+            layers = <7>;
+        };
+
+        left_closebracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <3 38>;
+            layers = <7>;
+        };
+
+        left_openparen {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <16 38>;
+            layers = <7>;
+        };
+
+        left_closeparen {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <4 38>;
+            layers = <7>;
+        };
+
+        left_tab {
+            bindings = <&kp TAB>;
+            key-positions = <2 3 4>;
+            layers = <7>;
+        };
+
+        left_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <14 15 16>;
+            layers = <7>;
+        };
+
+        left_super {
+            bindings = <&sk LEFT_GUI>;
+            key-positions = <1 13>;
+            layers = <7>;
+        };
+
+        left_alt {
+            bindings = <&sk LEFT_ALT>;
+            key-positions = <2 14>;
+            layers = <7>;
+        };
+
+        left_control {
+            bindings = <&sk LEFT_CONTROL>;
+            key-positions = <3 15>;
+            layers = <7>;
+        };
+
+        left_shift {
+            bindings = <&sk LEFT_SHIFT>;
+            key-positions = <4 16>;
+            layers = <7>;
+        };
+
+        left_delete {
+            bindings = <&kp DELETE>;
+            key-positions = <2 3 4 38>;
+            layers = <7>;
+        };
+
+        left_backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <2 3 4 37>;
+            layers = <7>;
+        };
+
+        left_escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <14 15 16 37>;
+            layers = <7>;
+        };
     };
 
     keymap {
@@ -246,10 +707,10 @@
 
         CHORDS_LAYER {
             bindings = <
-&none  &kp R  &kp S  &kp N  &kp I  &none    &none  &none  &none  &none  &none  &none
-&none  &kp A  &kp O  &kp T  &kp E  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-                     &none  &none  &none    &none  &none  &none
+&none  &kp R  &kp S  &kp N  &kp I          &none        &none  &none  &none  &none  &none  &none
+&none  &kp A  &kp O  &kp T  &kp E          &none        &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none          &none        &none  &none  &none  &none  &none  &none
+                     &none  &kp BACKSPACE  &kp SPACE    &none  &none  &none
             >;
         };
     };
