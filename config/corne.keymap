@@ -44,6 +44,12 @@
             timeout-ms = <COMBO_TIMEOUT>;
         };
 
+        combo_layer_colemak {
+            bindings = <&to 4>;
+            key-positions = <0 5>;
+            timeout-ms = <COMBO_TIMEOUT>;
+        };
+
         left_lower_b {
             bindings = <&kp B>;
             key-positions = <1 2>;
