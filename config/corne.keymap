@@ -729,7 +729,7 @@
             bindings = <
 &kp TAB         &kp Q        &kp W        &kp E         &kp R         &kp T                    &kp Y                 &kp U         &kp I         &kp O        &kp P           &kp BSPC
 &kp LCTRL       &hmt LGUI A  &hmt LALT S  &hmt LCTRL D  &hmt LSHFT F  &kp G                    &kp H                 &hmt RSHFT J  &hmt RCTRL K  &hmt RALT L  &hmt RGUI SEMI  &kp SQT
-&hmt LSHFT ESC  &kp Z        &kp X        &kp C         &kp V         &kp B                    &kp N                 &kp M         &kp COMMA     &kp DOT      &kp FSLH        &none
+&hmt LSHFT ESC  &kp Z        &kp X        &kp C         &kp V         &kp B                    &kp N                 &kp M         &kp COMMA     &kp DOT      &kp FSLH        &kp RIGHT_SHIFT
                                           &kp LGUI      &mo 1         &hmt LEFT_SHIFT SPACE    &hmt RIGHT_SHIFT RET  &mo 2         &kp RALT
             >;
         };
@@ -765,17 +765,17 @@
             bindings = <
 &kp TAB         &kp Q        &kp W        &kp F         &kp P         &kp B                    &kp J                   &kp L         &kp U         &kp Y        &kp SEMI     &kp BSPC
 &kp LCTRL       &hmt LGUI A  &hmt LALT R  &hmt LCTRL S  &hmt LSHFT T  &kp G                    &kp M                   &hmt RSHFT N  &hmt RCTRL E  &hmt RALT I  &hmt RGUI O  &kp APOS
-&hmt LSHFT ESC  &kp Z        &kp X        &kp C         &kp D         &kp V                    &kp K                   &kp H         &kp COMMA     &kp DOT      &kp FSLH     &none
+&hmt LSHFT ESC  &kp Z        &kp X        &kp C         &kp D         &kp V                    &kp K                   &kp H         &kp COMMA     &kp DOT      &kp FSLH     &kp RIGHT_SHIFT
                                           &trans        &mo 1         &hmt LEFT_SHIFT SPACE    &hmt RIGHT_SHIFT ENTER  &mo 2         &trans
             >;
         };
 
         game_layer {
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y      &kp U  &kp I          &kp O    &kp P     &kp BACKSPACE
-&kp LCTRL  &kp A  &kp S  &kp D         &kp F  &kp G        &kp H      &kp J  &kp K          &kp L    &kp SEMI  &kp SINGLE_QUOTE
-&kp LSHFT  &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N      &kp M  &kp COMMA      &kp DOT  &kp FSLH  &kp RIGHT_GUI
-                         &kp LEFT_ALT  &mo 6  &kp SPACE    &kp ENTER  &none  &kp RIGHT_ALT
+&kp TAB    &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y      &kp U          &kp I          &kp O    &kp P     &kp BACKSPACE
+&kp LCTRL  &kp A  &kp S  &kp D         &kp F  &kp G        &kp H      &kp J          &kp K          &kp L    &kp SEMI  &kp SINGLE_QUOTE
+&kp LSHFT  &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N      &kp M          &kp COMMA      &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                         &kp LEFT_ALT  &mo 6  &kp SPACE    &kp ENTER  &kp RIGHT_GUI  &kp RIGHT_ALT
             >;
         };
 
